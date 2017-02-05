@@ -10,6 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.tictactoe.MainActivity">
 
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
     <GridLayout
         android:id="@+id/grid"
         android:layout_width="wrap_content"
@@ -19,30 +27,39 @@
         android:layout_centerVertical="true">
 
         <TextView
+            style="@style/tile"
+            android:tag="1"/>
+
+        <TextView
+            android:tag="2"
             style="@style/tile"/>
 
         <TextView
+            android:tag="3"
             style="@style/tile"/>
 
         <TextView
+            android:tag="4"
             style="@style/tile"/>
 
         <TextView
+            android:tag="5"
             style="@style/tile"/>
 
         <TextView
+            android:tag="6"
             style="@style/tile"/>
 
         <TextView
+            android:tag="7"
             style="@style/tile"/>
 
         <TextView
+            android:tag="8"
             style="@style/tile"/>
 
         <TextView
-            style="@style/tile"/>
-
-        <TextView
+            android:tag="9"
             style="@style/tile"/>
 
 
